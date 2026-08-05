@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kurazen — Every Adventure. Every Story.</title>
+<meta name="description" content="Kurazen is an offline-first collection tracker for the games and movies you own. No account, no subscription, your data stays on your phone.">
+<meta property="og:title" content="Kurazen — Every Adventure. Every Story.">
+<meta property="og:description" content="Track every game and movie you own. Offline, private, no account needed.">
+<meta property="og:type" content="website">
+<style>
+  :root{
+    --bg:#0B0B0F; --card:#15151B; --line:#26262F; --crimson:#E63946;
+    --ink:#F3F1EB; --slate:#9C9CAA; --faint:#6A6A78; --gold:#FFC64B; --green:#3FB868;
+    --disp:Impact,"Haettenschweiler","Arial Narrow Bold",sans-serif;
+    --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:900px;margin:0 auto;padding:0 22px}
+  a{color:var(--crimson)}
+  header{text-align:center;padding:72px 0 56px;position:relative;overflow:hidden}
+  header svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-52%);opacity:.12;max-width:120%;pointer-events:none}
+  .eyebrow{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--crimson);font-weight:700}
+  h1{font-family:var(--disp);font-weight:400;letter-spacing:2px;text-transform:uppercase;font-size:clamp(52px,15vw,104px);line-height:1;margin:14px 0 0}
+  h1 b{color:var(--crimson);font-weight:400}
+  .tag{font-family:var(--disp);letter-spacing:2px;font-size:clamp(15px,3.4vw,22px);margin-top:14px;text-transform:uppercase}
+  .lede{color:var(--slate);font-size:16px;max-width:52ch;margin:16px auto 0}
+  .pills{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px;position:relative}
+  .pill{background:var(--card);border:1px solid var(--line);color:var(--slate);font-size:12.5px;padding:7px 14px;border-radius:999px}
+  .pill.on{background:#2A1216;border-color:#B3202E;color:#F6C7CB}
+  section{padding:44px 0;border-top:1px solid var(--line)}
+  h2{font-family:var(--disp);font-weight:400;letter-spacing:1.5px;text-transform:uppercase;font-size:clamp(23px,5vw,32px)}
+  .sub{color:var(--slate);font-size:15px;margin-top:8px;max-width:58ch}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,1fr));gap:14px;margin-top:26px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{font-size:16px;font-weight:600;margin-bottom:6px}
+  .card p{font-size:13.5px;color:var(--slate);line-height:1.55}
+  .cta{display:inline-block;background:var(--crimson);color:#fff;text-decoration:none;font-weight:700;padding:14px 30px;border-radius:12px;margin-top:22px}
+  .cta.ghost{background:transparent;border:1px solid var(--line);color:var(--ink);margin-left:8px}
+  .three{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;max-width:760px;margin:0 auto}
+  .three div{flex:1 1 150px;text-align:center}
+  .three p.n{font-family:var(--disp);font-size:34px;color:var(--crimson)}
+  .three p.d{color:var(--slate);font-size:13.5px;margin-top:4px}
+  footer{border-top:1px solid var(--line);padding:34px 0 52px;text-align:center}
+  footer .logo{font-family:var(--disp);font-size:26px;letter-spacing:2px}
+  footer p{color:var(--faint);font-size:12.5px;margin-top:8px}
+  footer a{color:var(--slate);text-decoration:none;margin:0 9px;font-size:13px}
+  footer a:hover{color:var(--crimson)}
+</style>
+</head>
+<body>
+
+<header>
+  <svg viewBox="0 0 400 400" width="440" height="440" aria-hidden="true">
+    <circle cx="200" cy="200" r="150" fill="none" stroke="#F3F1EB" stroke-width="20"
+            stroke-linecap="round" stroke-dasharray="880 118" transform="rotate(28 200 200)"/>
+  </svg>
+  <div class="wrap" style="position:relative">
+    <p class="eyebrow">Kurazen · MediaVault</p>
+    <h1><b>Kura</b>zen</h1>
+    <p class="tag">Every Adventure. Every Story.</p>
+    <p class="lede">The pocket vault for the games and movies you actually own — physical and digital. Beautiful, fast, and completely offline.</p>
+    <div class="pills">
+      <span class="pill on">📴 Works offline</span>
+      <span class="pill">🔒 Your data stays on your phone</span>
+      <span class="pill">🚫 No account needed</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>What it does</h2>
+    <p class="sub">Catalogue your shelf in seconds, then find anything instantly.</p>
+    <div class="grid">
+      <div class="card"><h3>Add in seconds</h3><p>Type a title and pick it from real cover art — artwork, year, genre and score fill themselves in. Works worldwide, no barcode required.</p></div>
+      <div class="card"><h3>Browse your way</h3><p>A poster wall, detailed rows, or a big swipeable carousel. Filter by console, genre, region, format and condition.</p></div>
+      <div class="card"><h3>Know what it's worth</h3><p>Track what you paid and what it's worth now, record sales with profit, and see it all on a live stats dashboard.</p></div>
+      <div class="card"><h3>Will it still play?</h3><p>Kurazen flags which games are self-contained on the disc — so you know what survives a store closing or a server shutting down.</p></div>
+      <div class="card"><h3>See what's coming</h3><p>A release calendar for upcoming games and movies, with one-tap wishlist and quiet new-arrival alerts.</p></div>
+      <div class="card"><h3>Yours to keep</h3><p>Export your whole collection to a spreadsheet any time. A real backup you own — no cloud lock-in.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="text-align:center">
+  <div class="wrap">
+    <h2>Built different</h2>
+    <div class="three" style="margin-top:26px">
+      <div><p class="n">Offline</p><p class="d">Airplane mode, no signal, forever — your collection is always there.</p></div>
+      <div><p class="n">Private</p><p class="d">No account, no cloud, no tracking. Your data never leaves your device.</p></div>
+      <div><p class="n">No fees</p><p class="d">No subscription wall holding your own collection to ransom.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="text-align:center">
+  <div class="wrap">
+    <h2>Get Kurazen</h2>
+    <p class="sub" style="margin:8px auto 0">Currently in beta on Android. iOS coming later.</p>
+    <a class="cta" href="mailto:kuraz3n@gmail.com?subject=Kurazen%20beta%20access">Request beta access</a>
+    <a class="cta ghost" href="privacy.html">Privacy policy</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="logo"><b style="color:var(--crimson)">KURA</b>ZEN</p>
+    <p>Every game and movie you own — in your pocket, and yours to keep.</p>
+    <p style="margin-top:14px">
+      <a href="privacy.html">Privacy</a>·
+      <a href="mailto:kuraz3n@gmail.com">Contact</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
